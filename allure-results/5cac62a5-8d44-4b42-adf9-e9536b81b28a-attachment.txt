@@ -1,0 +1,6 @@
+Login failed with username: standard_user and password: secret_sauce12
+Login failed with username: 122333 and password: secret_sauce
+Login failed with username: locked_out_use111r and password: 
+Login failed with username:  and password: secret_sauce12
+Login failed with username:  and password: 
+All invalid login tests passed

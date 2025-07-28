@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1318","Logout Test","chromium","Thu Jul 24 18:39:58 IST 2025","passed","Thu Jul 24 18:39:59 IST 2025","Login Test Parameterized","LoginTest.spec.ts","",""
+"","980","Login Test invalid data","chromium","Thu Jul 24 18:39:59 IST 2025","passed","Thu Jul 24 18:40:00 IST 2025","Login Test Parameterized","LoginTest.spec.ts","",""
+"","484","Login Test valid Data","chromium","Thu Jul 24 18:39:53 IST 2025","passed","Thu Jul 24 18:39:54 IST 2025","Login Test Parameterized","LoginTest.spec.ts","",""
+"","2184","should add items to cart","chromium","Thu Jul 24 18:39:53 IST 2025","passed","Thu Jul 24 18:39:56 IST 2025","","AddItemsToCart.spec.ts","",""

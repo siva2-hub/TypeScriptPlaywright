@@ -1,0 +1,22 @@
+{
+  "name": "playwright_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "allure:generate": "allure generate allure-results --clean",
+    "allure:open": "allure open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.0.15",
+    "allure-playwright": "^3.3.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "xlsx": "^0.18.5"
+  }
+}
