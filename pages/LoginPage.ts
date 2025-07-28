@@ -48,7 +48,7 @@ export class LoginPage {
     }
     async readExcelDataFromMultipleSheet(filePath: string) {
         const wb = XLSX.readFile(filePath);
-        let allData:any[]=[];
+        let allData: any[] = [];
         wb.SheetNames.forEach(sheetName => {
             const sheet = wb.Sheets[sheetName];
             const data = XLSX.utils.sheet_to_json(sheet);
@@ -57,10 +57,10 @@ export class LoginPage {
         console.log(allData);
     }
     async readExcelDataFromMultipleFiles(filePaths: string[]) {
-        let allData:any[]=[];
+        let allData: any[] = [];
         filePaths.forEach(filePath => {
-            const workbook=XLSX.readFile(filePath);
-            const ws = workbook.SheetNames.forEach(sheetName=>{
+            const workbook = XLSX.readFile(filePath);
+            workbook.SheetNames.forEach(sheetName => {
                 const sheet = workbook.Sheets[sheetName];
                 const data = XLSX.utils.sheet_to_json(sheet);
                 allData.push(data);
